@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title> Z-index || Tailwind CSS</title>
+</head>
+
+<body>
+  <div class="flex items-center justify-center">
+    <div class=" relative m-20">
+      <div class="w-40 h-40 items-center justify-center bg-teal-300 z-10">Box1</div>
+      <div class="w-40 h-40 items-center justify-center bg-teal-800 absolute top-10 left-10 z-10">Box2</div>
+    </div>
+    <div class="relative m-20">
+      <div class="w-40 h-40 items-center justify-center bg-teal-300 relative z-10">Box1</div>
+      <div class="w-40 h-40 items-center justify-center bg-teal-800 absolute top-10 left-10 z-0">Box2</div>
+    </div>
+    <div class="relative m-20">
+      <div class="w-40 h-40 items-center justify-center bg-teal-300 z-10">Box1</div>
+      <div class="w-40 h-40 items-center justify-center bg-teal-800 absolute top-10 left-10 z-10">Box2</div>
+    </div>
+  </div>
+</body>
+
+</html>

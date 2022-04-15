@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>flex direction & flex wrap|| Tailwind CSS</title>
+</head>
+
+<body class="text-center">
+
+    
+    <div class="flex flex-wrap">
+        <div class="bg-red-600 w-40 h-40 m-10 basis-40">01</div>
+        <div class="bg-red-600 w-40 h-40 m-10 basis-40">02</div>
+        <div class="bg-red-600 w-40 h-40 m-10 basis-40">03</div>
+        <div class="bg-red-600 w-40 h-40 m-10 basis-40">04</div>
+    </div>
+    <div id="main" class="flex justify-evenly space-x-2 ml-12 mr-12"> 
+        <div class="rounded bg-green-600 flex-grow w-16 h-12 ">
+            Side Part</div> 
+        <div class="rounded bg-green-300 grow-1  w-16 h-12">
+            Flex-Shrink
+        </div> 
+        <div class="rounded bg-green-600 flex-grow w-16 h-12">
+            Side Part</div> 
+    </div> 
+</body>
+
+</html>
