@@ -11,6 +11,12 @@ module.exports = {
             },
             spacing: {
                 '128': '32rem',
+            },
+            maxHeight: {
+                '128': '32rem',
+            },
+            height: {
+                '128': '32rem',
             }
         },
     },
